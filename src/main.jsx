@@ -6,7 +6,7 @@ import App from "./App.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter future={{ v7_relativeSplatPath: true }}>
+    <BrowserRouter  basename="/repository-name" future={{ v7_relativeSplatPath: true }}>
       <App />
     </BrowserRouter>
   </StrictMode>
