@@ -1,6 +1,7 @@
 {
   "name": "movie",
   "private": true,
+   "homepage": "https://JaySoni0311/githubpages.io/movie",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
