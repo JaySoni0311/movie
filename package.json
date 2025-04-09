@@ -1,7 +1,7 @@
 {
   "name": "movie",
   "private": true,
-   "homepage": "https://JaySoni0311/githubpages.io/movie",
+  "homepage": "https://JaySoni0311/githubpages.io/movie",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -15,7 +15,7 @@
   "dependencies": {
     "gh-pages": "^6.3.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "react-dom": "^19.1.0",
     "react-router-dom": "^7.4.1"
   },
   "devDependencies": {
