@@ -55,3 +55,10 @@
   grid-template-columns: repeat(auto-fit, minmax(278px, 0fr)) !important;
 
 }
+
+
+@media (max-width: 639px) {
+  .favorites{
+    padding: 1rem;
+  }
+}
