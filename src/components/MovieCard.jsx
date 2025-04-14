@@ -26,7 +26,8 @@ function MovieCard({movie}) {
         
         <div className="movie-info">
             <h3>{movie.title}</h3>
-            <p>{movie.release_date.split('-').reverse().join('-')}</p>
+             <p>Release Date </p>
+             <p> { movie.release_date.split('-').reverse().join('-')}</p>
         </div>
     </div>
 }
