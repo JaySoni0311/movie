@@ -1,22 +1,27 @@
+import React from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
 import "../css/Footer.css";
 import logo from "../images/logo.jpg";
 
 const Footer = () => {
 
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  };
-  
+    const navigate = useNavigate();
+    const location = useLocation();
+
+    const handleClick = () => {
+        if (location.pathname === '/') {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        } else {
+            navigate('/');
+        }
+    };
   return (
     <footer className="footer">
         <img
           src={logo}
           alt="logo"
           style={{ width: 70 }}
-          onClick={scrollToTop}
+          onClick={handleClick}
         />
 
       <div className="footer-content">
