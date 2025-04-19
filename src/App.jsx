@@ -5,6 +5,7 @@ import MovieDetails from "./pages/MovieDetails";
 import { Routes, Route } from "react-router-dom";
 import { MovieProvider } from "./contexts/MovieContext";
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/movie/:id" element={<MovieDetails />} />
         </Routes>
       </main>
+      <Footer />
     </MovieProvider>
   );
 }
